@@ -1,0 +1,58 @@
+section{
+    
+    width: 700px; height: 400px;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    border: 1px solid black;
+    
+}
+.header{
+    overflow: hidden;
+    max-height: 50px;
+    margin: auto;
+}
+h1{
+    text-align: left;
+    padding-left: 10px;
+}
+#logo{
+    max-width: 60px;
+    position: absolute; top: 10px; right: 10px;
+}
+body{
+    overflow: hidden;
+    font-family: 'Indie Flower', cursive;
+}
+.body{
+    width: 700px; height: 300px;
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+.left-part{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.right-part{
+    float: right; width: 40%;
+    margin: auto;
+    position: absolute; top: 20%; left: 60%;
+}
+.right-part input{
+    display: block;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    border: none;
+    text-decoration: underline;
+}
+.footer{
+    position: absolute; bottom: 10%; left: 40%;
+    font-family: 'Indie Flower', cursive;
+}
+.footer input[type=submit]{
+    border: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+.footer:hover{
+    border: 1px solid black;
+}
+
