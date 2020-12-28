@@ -1,21 +1,22 @@
 section{
     
-    width: 700px; height: 400px;
+    width: 700px; height: 500px;
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
     border: 1px solid black;
     
 }
 .header{
-    overflow: hidden;
+    overflow: visible;
     max-height: 50px;
     margin: auto;
 }
 h1{
     text-align: left;
+    font-size: 40px;
     padding-left: 10px;
 }
 #logo{
-    max-width: 60px;
+    max-width: 80px;
     position: absolute; top: 10px; right: 10px;
 }
 body{
@@ -23,34 +24,39 @@ body{
     font-family: 'Indie Flower', cursive;
 }
 .body{
-    width: 700px; height: 300px;
+    width: 700px; height: 500px;
     position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
 }
 .left-part{
     float: left;
-    width: 50%;
+    width: 45%;
     padding: 10px;
+    padding-top: 100px;
+    font-size: 22px;
 }
 .right-part{
-    float: right; width: 40%;
+    float: right; 
     margin: auto;
-    position: absolute; top: 20%; left: 60%;
+    position: absolute; top: 20%; left: 50%;
 }
 .right-part input{
     display: block;
     font-family: 'Indie Flower', cursive;
-    font-size: 20px;
+    font-size: 30px;
+    color: lightgrey;
     border: none;
     text-decoration: underline;
 }
 .footer{
-    position: absolute; bottom: 10%; left: 40%;
+    position: absolute; bottom: 5%; left: 35%;
     font-family: 'Indie Flower', cursive;
 }
 .footer input[type=submit]{
     border: none;
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
+    background-color: #C0C0C0;
+    font-weight: bold;
 }
 .footer:hover{
     border: 1px solid black;
