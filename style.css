@@ -1,64 +1,78 @@
 section{
-    
-    width: 700px; height: 500px;
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    border: 1px solid black;
-    
-}
-.header{
-    overflow: visible;
-    max-height: 50px;
     margin: auto;
-}
-h1{
-    text-align: left;
-    font-size: 40px;
-    padding-left: 10px;
-}
-#logo{
-    max-width: 80px;
-    position: absolute; top: 10px; right: 10px;
-}
-body{
-    overflow: hidden;
-    font-family: 'Indie Flower', cursive;
-}
-.body{
-    width: 700px; height: 500px;
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-}
-.left-part{
-    float: left;
-    width: 45%;
-    padding: 10px;
-    padding-top: 100px;
-    font-size: 22px;
-}
-.right-part{
-    float: right; 
-    margin: auto;
-    position: absolute; top: 20%; left: 50%;
-}
-.right-part input{
-    display: block;
-    font-family: 'Indie Flower', cursive;
-    font-size: 30px;
-    color: lightgrey;
-    border: none;
-    text-decoration: underline;
-}
-.footer{
-    position: absolute; bottom: 5%; left: 35%;
-    font-family: 'Indie Flower', cursive;
-}
-.footer input[type=submit]{
-    border: none;
-    font-family: 'Indie Flower', cursive;
-    font-size: 20px;
-    background-color: #C0C0C0;
-    font-weight: bold;
-}
-.footer:hover{
-    border: 1px solid black;
+    background: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 10%;
+    font-family: 'Indie flower', cursive;
+    
 }
 
+body{
+    background: black;
+    font-family: 'Handlee', cursive;
+    font-weight: bold; 
+}
+
+.header {
+    display: flex;
+    height: 20%;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+h1{
+    margin-left: 2%;
+    font-size: 35px;
+}
+
+#logo {
+    text-align: end;
+    margin-top: 2%;
+    margin-right: 2%;
+    max-width:auto;
+    height:100%;
+        
+}
+.postcard-body{
+    display: flex;
+    height: 50%;
+    font-size: 20px;
+}
+
+.left-part {
+    margin: 10px;
+    width: 50%;
+    margin-top: 0px;
+}
+
+.right-part{
+    margin: 10px;
+    padding-top: 1%;
+    width: 50%;
+    
+}
+.right-part input{
+    border: none;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    font-family: 'Indie flower', cursive;
+    font-weight: bold;
+    color: grey;
+    padding: 5px;
+    width: 90%;
+}
+
+.footer{
+   display: flex;
+   /* margin: auto; */
+}
+
+#button {
+    margin: auto;
+    font-family: 'Indie flower', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 40px;
+    
+}
